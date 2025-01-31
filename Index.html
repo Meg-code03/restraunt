@@ -1,0 +1,106 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Delicious Restaurant</title>
+    <link rel="stylesheet" href="style2.css">
+</head>
+<body>
+
+    <!-- Background Animation -->
+    <div class="background-animation"></div>
+
+    <!-- Navbar -->
+    <header>
+        <nav>
+            <h1 class="logo" style="color: aqua;">Delecious</h1>
+            <ul class="nav-links">
+                <li><a href="#home">Home</a></li>
+                <li><a href="#menu">Menu</a></li>
+                <li><a href="#booking">Book Table</a></li>
+                <li><a href="#order">Order Online</a></li>
+                <li><a href="#gallery">Gallery</a></li>
+                <li><a href="#contact">Contact</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <!-- Hero Section -->
+    <section id="home" class="hero">
+        <div class="hero-text">
+            
+            <h2 class="neon-text">Welcome to Delicious</h2>
+            <p>Experience the finest dining with our special menu.</p>
+            <a href="#menu" class="btn animated-btn">View Menu</a>
+        </div>
+    </section><br><br><br><br><br><br><br><br><br>
+    <section id="booking" class="reservation">
+        <h2 class="section-title">Book a Table</h2>
+        <form class="reservation-form">
+            <input type="text" placeholder="Your Name" required>
+            <input type="email" placeholder="Your Email" required>
+            <input type="number" placeholder="Guests" required>
+            <input type="date" required>
+            <button type="submit" class="btn animated-btn">Reserve Now</button>
+        </form>
+    </section>
+
+    <!-- Order Online -->
+    <section id="order" class="order-online">
+        <h2 class="section-title">Order Online</h2>
+        <form class="order-form">
+            <input type="text" placeholder="Full Name" required>
+            <input type="email" placeholder="Email Address" required>
+            <input type="text" placeholder="Address" required>
+            <select required>
+                <option value="" disabled selected>Select Dish</option>
+                <option value="Pizza">Pizza</option>
+                <option value="Burger">Burger</option>
+                <option value="Pasta">Pasta</option>
+            </select>
+            <button type="submit" class="btn animated-btn">Place Order</button>
+        </form>
+    </section>
+    <div class="jumping-food">
+            <img src="chef2.jpg" alt="" class="food-item pizza">
+            <img src="" alt="" class="food-item burger">
+            <img src="download (4).jpeg" alt="" class="food-item sushi">
+        </div>
+        <!-- Menu Section -->
+        <section id="menu">
+            <h2>Our Menu</h2>
+            <div class="menu-items">
+                <div class="menu-item">
+                    <img src="pizza.jpeg" alt="Pizza">
+                    <p>Pizza</p>
+                </div>
+                <div class="menu-item">
+                    <img src="Spicy-Pasta-recipe-optimised-scaled.webp" alt="Pasta">
+                    <p>Pasta</p>
+                </div>
+                <div class="menu-item">
+                    <img src="images.jpeg" alt="Salad">
+                    <p>Salads</p>
+                </div>
+                <div class="menu-item">
+                    <img src="download (4).jpeg" alt="Pasta">
+                    <p>Pasta</p>
+                </div>
+                <div class="menu-item">
+                    <img src="pizza.jpeg" alt="Pasta">
+                    <p>Pasta</p>
+                </div>
+            </div>
+        </section>
+    
+
+    <!-- Footer -->
+    <footer id="contact">
+        <h2>Contact Us</h2>
+        <p>Email: contact@delicious.com | Phone: 123-456-7890</p>
+        <p>&copy; 2025 Delicious Restaurant</p>
+    </footer>
+
+</body>
+</html>
